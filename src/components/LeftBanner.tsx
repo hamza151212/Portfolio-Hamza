@@ -2,6 +2,8 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaLinkedinIn, FaReact, FaInstagram, FaGithub } from "react-icons/fa";
 import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 import { FadeIn } from "./FadeIn";
+import ReactPlayer from "react-player";
+
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
@@ -28,17 +30,15 @@ const LeftBanner = () => {
 
           A dynamic developer with a passion for crafting seamless digital experiences. 🌐💻 From building responsive websites that come to life on any screen to developing sleek mobile apps📲for on-the-go brilliance, I thrive in the world of web and mobile development.
           <br />
-          ⚙️ AI/ML Maverick:
+       
+       <br />
+        <br />
+          <div>
+         <ReactPlayer url="https://youtu.be/TUcNp4LT7bo" controls={true} loop playsinline playing>
 
-          Venturing into the realms of AI and ML, I'm on a mission to infuse intelligence into every line of code. 
-          <br />
-          🔗 Blockchain Explorer:
+         </ReactPlayer>
 
-          In the ever-evolving landscape of blockchain, I've navigated the intricacies to develop projects that redefine security and transparency.
-          <br />
-          🛠️ Crafting Tomorrow's Tech Today:
-
-          I don't just code; I sculpt possibilities. Each project is an opportunity to create something extraordinary, a fusion of art and technology that leaves a lasting impact.
+          </div>
 
 
 
@@ -95,3 +95,4 @@ const LeftBanner = () => {
 };
 
 export default LeftBanner;
+
