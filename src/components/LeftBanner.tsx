@@ -34,9 +34,17 @@ const LeftBanner = () => {
        <br />
         <br />
           <div>
-         <ReactPlayer url="https://youtu.be/TUcNp4LT7bo" controls={true} loop playsinline playing>
+         <ReactPlayer
+  url="https://youtu.be/TUcNp4LT7bo"
+  controls={true}
+  loop
+  playsinline
+  playing={true} // This property triggers autoplay
+  width="100%"
+  height="100%"
+  style={{ maxWidth: "100%" }}
+/>
 
-         </ReactPlayer>
 
           </div>
 
