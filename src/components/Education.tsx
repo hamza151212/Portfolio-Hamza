@@ -18,7 +18,7 @@ const Education = () => {
           <ResumeCard
             title="BSc in Computer Science"
             subTitle="Abbottabad University Of Science And Technology (2019 - 2023)"
-            result="3.62/4"
+            result="4/4"
             des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
           />
           <ResumeCard
